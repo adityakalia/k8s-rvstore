@@ -11,3 +11,14 @@ roleRef:
   kind: Role
   name: devs
   apiGroup: rbac.authorization.k8s.io
+
+# Even though a normal user cannot be added via an API call, any user that 
+# presents a valid certificate signed by the cluster's certificate authority 
+# (CA) is considered authenticated.
+
+# Kubernetes uses client certificates, bearer tokens, an authenticating proxy, 
+# or HTTP basic auth to authenticate API requests through authentication plugins  
+
+# Integrations with other authentication protocols (LDAP, SAML, Kerberos, alternate x509 schemes, etc)
+# can be accomplished using an authenticating proxy or the authentication webhook
+

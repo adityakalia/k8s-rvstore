@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: task-pv-claim
 spec:
-  storageClassName: manual
+  storageClassName: ebs-volume
   accessModes:
     - ReadWriteOnce # ReadOnlyMany, depends on storage type, ReadWriteMany
   resources:

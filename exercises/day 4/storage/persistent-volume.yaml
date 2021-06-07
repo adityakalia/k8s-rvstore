@@ -1,3 +1,4 @@
+#  dynamic vs static provisioning
 apiVersion: v1
 kind: PersistentVolume
 metadata:

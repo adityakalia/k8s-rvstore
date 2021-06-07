@@ -17,7 +17,7 @@ kubectl get configmap # get all configmaps
 
 ### Modifying resources
 ### ---------------------
-kubectl apply –f workloads.yaml # create/update resources in file workloads.yaml to cluster
+kubectl apply -f workloads.yaml # create/update resources in file workloads.yaml to cluster
 kubectl delete -f pod-custom.yaml # delete resources in file workloads.yaml from cluster
 kubectl edit deployment nginx-deployment # open default editor to edit deployment nginx-deployment
 KUBE_EDITOR="nano" kubectl edit deployment nginx-deployment # open nano to edit deployment nginx-deployment
